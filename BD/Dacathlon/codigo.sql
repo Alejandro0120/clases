@@ -1,5 +1,5 @@
-DROP SCHEMA IF EXISTS `dacathlon`; 
-CREATE SCHEMA `dacathlon` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci ;
+DROP DATABASE IF EXISTS dacathlon;
+CREATE DATABASE `dacathlon` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci ;
 USE `dacathlon`;
 CREATE TABLE `dacathlon`.`personas` (
   `idPersona` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
